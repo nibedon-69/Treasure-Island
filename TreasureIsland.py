@@ -23,14 +23,14 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 
 print("....Welcome ot Treasure Island....\nYour mission is to find out treasure.\n")
 
-way=(input("There are two way, Left or Right. Enter 'L' for Left or 'R' for Right")).upper()
+way=(input("There are two way, Left or Right. Enter 'L' for Left or 'R' for Right. Enter: ")).upper()
 
 if way=='L':
     way= input("In this way a river found. Now what to do? Do you want to swim or wait for boat?\n" \
-    "For swim enetr 's' or to wait enter 'w'").lower()
+    "For swim enetr 's' or to wait enter 'w'. Enter: ").lower()
     if way=='w':
         way=input("After crossing river three door appeared- one Red, one Yellow & one Blue.\n" \
-        "Enter 'r' for red, 'y' for yellow or 'b' for blue.").lower()
+        "Enter 'r' for red, 'y' for yellow or 'b' for blue. Enetr: ").lower()
         
         if way=='y':
             print("___Congrats You Win!___")
